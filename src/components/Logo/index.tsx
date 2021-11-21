@@ -18,7 +18,7 @@ const Logo = ({
   <S.Container color={color} size={size} hideOnMobile={hideOnMobile}>
     <Link href="/">
       <a>
-        <IdeaIcon />
+        <IdeaIcon data-testid="Logo" />
       </a>
     </Link>
   </S.Container>

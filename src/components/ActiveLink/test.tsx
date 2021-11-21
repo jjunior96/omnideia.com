@@ -25,7 +25,7 @@ describe('<ActiveLink />', () => {
     expect(screen.getByText(/login/i)).toBeInTheDocument();
   });
 
-  it('should render the component with background darker when the page link has been showed', async () => {
+  it('should render the component with color darker when the page link has been showed', async () => {
     const useRouterMocked = mocked(useRouter);
 
     useRouterMocked.mockReturnValueOnce({
@@ -39,11 +39,11 @@ describe('<ActiveLink />', () => {
     const ActiveLinkElement = screen.getByText(/login/i);
 
     expect(ActiveLinkElement).toHaveStyle({
-      'background-color': '#1c8455'
+      color: '#4644ba'
     });
   });
 
-  it('should render the component with background darker user when mouse over', async () => {
+  it('should render the component with color darker user when mouse over', async () => {
     const useRouterMocked = mocked(useRouter);
 
     useRouterMocked.mockReturnValueOnce({
@@ -61,7 +61,7 @@ describe('<ActiveLink />', () => {
     await waitFor(() => ActiveLinkElement);
 
     expect(screen.getByText(/login/i)).toHaveStyle({
-      'background-color': '#1c8455'
+      color: '#4644ba'
     });
   });
 });
