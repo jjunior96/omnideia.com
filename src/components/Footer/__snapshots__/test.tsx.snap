@@ -74,6 +74,7 @@ exports[`<Footer /> should render the heading 1`] = `
       href="/"
     >
       <svg
+        data-testid="Logo"
         fill="currentColor"
         height="1em"
         stroke="currentColor"
