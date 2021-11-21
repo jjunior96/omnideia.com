@@ -1,5 +1,3 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
-export const Container = styled.div`
-  ${({ theme }) => css``}
-`;
+export const Container = styled.div``;
