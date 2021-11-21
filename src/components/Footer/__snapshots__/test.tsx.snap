@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should render the heading 1`] = `
+.c5 {
+  color: #0D0D0D;
+  font-size: 1.6rem;
+}
+
+.c1 {
+  color: #0D0D0D;
+  width: 11rem;
+  height: 3.3rem;
+}
+
+.c1 svg {
+  color: #5855E9;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.c0 .c4 {
+  text-transform: uppercase;
+}
+
+.c2 {
+  display: grid;
+  grid-template-columns: minmax(auto,50%) 1fr;
+  gap: 3.2rem;
+  margin-top: 3.2rem;
+}
+
+.c3 a,
+.c3 span {
+  display: block;
+  color: #19272e;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.c3 a {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.c3 a:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c6 {
+  color: #3E606F;
+  font-size: 1.4rem;
+  margin-top: 4.0rem;
+  margin-bottom: 3.2rem;
+  text-align: center;
+}
+
+@media (min-width:768px) {
+  .c2 {
+    grid-template-columns: repeat(4,1fr);
+  }
+}
+
+<footer
+  class="c0"
+>
+  <div
+    class="c1"
+    color="black"
+  >
+    <a
+      href="/"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    class="c2"
+  >
+    <div
+      class="c3"
+    >
+      <h2
+        class="c4 c5"
+        color="black"
+      >
+        Contact Us
+      </h2>
+      <a
+        href="mailto:sac@wongames.com"
+      >
+        sac@wongames.com
+      </a>
+    </div>
+    <div
+      aria-labelledby="social-media"
+      class="c3"
+    >
+      <h2
+        class="c4 c5"
+        color="black"
+      >
+        Follow us
+      </h2>
+      <nav
+        id="social-media"
+      >
+        <a
+          href="https://www.instagram.com/won-games"
+          rel="noopenner, noreferrer"
+          target="_blank"
+        >
+          Instagram
+        </a>
+        <a
+          href="https://www.twitter.com/won-games"
+          rel="noopenner, noreferrer"
+          target="_blank"
+        >
+          Twitter
+        </a>
+        <a
+          href="https://www.youtube.com/won-games"
+          rel="noopenner, noreferrer"
+          target="_blank"
+        >
+          Youtube
+        </a>
+        <a
+          href="https://www.facebook.com/won-games"
+          rel="noopenner, noreferrer"
+          target="_blank"
+        >
+          Facebook
+        </a>
+      </nav>
+    </div>
+    <div
+      aria-labelledby="resources"
+      class="c3"
+    >
+      <h2
+        class="c4 c5"
+        color="black"
+      >
+        Links
+      </h2>
+      <nav
+        id="resources"
+      >
+        <a
+          href="/"
+        >
+          Home
+        </a>
+        <a
+          href="/games"
+        >
+          Store
+        </a>
+        <a
+          href="/search"
+        >
+          Buscar
+        </a>
+      </nav>
+    </div>
+    <div
+      aria-label="contact"
+      class="c3"
+    >
+      <h2
+        class="c4 c5"
+        color="black"
+      >
+        Location
+      </h2>
+      <span>
+        Lorem ipsum dolor sit.
+      </span>
+      <span>
+        Lorem Ipsum
+      </span>
+      <span>
+        Lorem, ipsum dolor.
+      </span>
+    </div>
+  </div>
+  <div
+    class="c6"
+  >
+    Won Games 
+    2021
+     © All rights reserved.
+  </div>
+</footer>
+`;

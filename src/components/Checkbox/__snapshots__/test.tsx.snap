@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox /> should render the Checkbox component 1`] = `
+.c1 {
+  font-size: 1.6rem;
+  color: #3E606F;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.c0 {
+  color: #0D0D0D;
+  background: transparent;
+  border: 0;
+  margin-right: 0.8rem;
+  outline: none;
+}
+
+.c0:focus {
+  box-shadow: 0 0 0.5rem #24A66B;
+}
+
+<div
+  class="styles__Container-sc-1oopzgh-0"
+>
+  <input
+    aria-label="name-checkbox"
+    class="c0"
+    id="Checkbox"
+    type="checkbox"
+    value=""
+  />
+  <label
+    class="c1"
+    for="Checkbox"
+  >
+    Checkbox
+  </label>
+</div>
+`;
