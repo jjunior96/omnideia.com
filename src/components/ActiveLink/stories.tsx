@@ -22,9 +22,6 @@ export default {
     nextRouter: {
       path: '/',
       asPath: '/'
-    },
-    backgrounds: {
-      default: 'dark'
     }
   },
   argTypes: {
