@@ -4,7 +4,7 @@ exports[`<Button /> should render a button default 1`] = `
 .c0 {
   width: 100%;
   color: #FAFAFA;
-  background-color: #24A66B;
+  background-color: #5855E9;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -20,6 +20,7 @@ exports[`<Button /> should render a button default 1`] = `
   border-radius: 0.4rem;
   border: 0;
   padding: 0 1.6rem;
+  padding-left: 2.4rem;
   font-weight: 600;
   font-size: 1.6rem;
   -webkit-transition: background-color 0.3s,box-shadow 0.2s;
@@ -34,20 +35,31 @@ exports[`<Button /> should render a button default 1`] = `
 }
 
 .c0:hover {
-  background-color: #1f915d;
+  background-color: #423ee6;
   box-shadow: 0 8px 8px rgba(0,0,0,0.1);
 }
 
-.c0 > svg {
-  margin-right: 1rem;
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div>
   <button
     class="c0"
-    color="green"
+    color="primary"
   >
-    Enter
+    <div
+      class="c1"
+    >
+      Enter
+    </div>
   </button>
 </div>
 `;
