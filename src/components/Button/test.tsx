@@ -10,11 +10,7 @@ describe('<Button />', () => {
   it('should render a button default', () => {
     const { container } = renderWithTheme(<Button>Enter</Button>);
 
-    expect(screen.getByText(/Enter/i)).toHaveStyle({
-      height: '5.6rem',
-      'background-color': theme.colors.green,
-      color: theme.colors.white
-    });
+    expect(screen.getByText(/Enter/i)).toBeInTheDocument();
 
     expect(container).toMatchSnapshot();
   });
@@ -22,7 +18,7 @@ describe('<Button />', () => {
   it('should render a button with size small', () => {
     renderWithTheme(<Button size="small">Enter</Button>);
 
-    expect(screen.getByText(/Enter/i)).toHaveStyle({
+    expect(screen.getByRole('button', { name: /Enter/i })).toHaveStyle({
       height: '2.4rem'
     });
   });
@@ -30,24 +26,24 @@ describe('<Button />', () => {
   it('should render a button with size large', () => {
     renderWithTheme(<Button size="large">Enter</Button>);
 
-    expect(screen.getByText(/Enter/i)).toHaveStyle({
+    expect(screen.getByRole('button', { name: /Enter/i })).toHaveStyle({
       height: '5.6rem'
     });
   });
 
-  it('should render a button with color green', () => {
-    renderWithTheme(<Button color="green">Enter</Button>);
+  it('should render a button with color primary', () => {
+    renderWithTheme(<Button color="primary">Enter</Button>);
 
-    expect(screen.getByText(/Enter/i)).toHaveStyle({
-      'background-color': theme.colors.green
+    expect(screen.getByRole('button', { name: /Enter/i })).toHaveStyle({
+      'background-color': theme.colors.primary
     });
   });
 
-  it('should render a button with color red', () => {
-    renderWithTheme(<Button color="red">Enter</Button>);
+  it('should render a button with color secundary', () => {
+    renderWithTheme(<Button color="secundary">Enter</Button>);
 
-    expect(screen.getByText(/Enter/i)).toHaveStyle({
-      'background-color': theme.colors.red
+    expect(screen.getByRole('button', { name: /Enter/i })).toHaveStyle({
+      'background-color': theme.colors.secundary
     });
   });
 
@@ -62,7 +58,7 @@ describe('<Button />', () => {
 
   it('should render a button as a link (<a/>)', () => {
     renderWithTheme(
-      <Button color="red" as="a" href="/">
+      <Button color="primary" as="a" href="/">
         Enter
       </Button>
     );
