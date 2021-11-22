@@ -3,6 +3,8 @@ import styled, { css, DefaultTheme } from 'styled-components';
 
 import { ButtonProps } from '.';
 
+type IconContainerProps = Pick<ButtonProps, 'positionIcon'>;
+
 const containerModifiers = {
   small: (theme: DefaultTheme) => css`
     height: 2.4rem;
@@ -38,7 +40,7 @@ const containerModifiers = {
 };
 
 export const Container = styled.button<ButtonProps>`
-  ${({ theme, color, size, minimal }) => css`
+  ${({ theme, color, size, minimal, positionIcon }) => css`
     width: 100%;
 
     color: ${theme.colors.white};
@@ -52,6 +54,7 @@ export const Container = styled.button<ButtonProps>`
     border: 0;
 
     padding: 0 ${theme.spacings.xsmall};
+    padding-${positionIcon}: ${theme.spacings.small};
 
     font-weight: ${theme.font.bold};
     font-size: ${theme.font.sizes.xsmall};
@@ -64,21 +67,45 @@ export const Container = styled.button<ButtonProps>`
       box-shadow: 0 0 0.5rem ${theme.colors.green};
     }
 
-    ${!minimal &&
-    css`
-      &:hover {
-        background-color: ${darken(0.05, theme.colors[color!])};
+    ${
+      !minimal &&
+      css`
+        &:hover {
+          background-color: ${darken(0.05, theme.colors[color!])};
 
-        box-shadow: ${theme.box.shadow};
-      }
-    `}
-
-    > svg {
-      margin-right: ${theme.spacings.xxsmall};
+          box-shadow: ${theme.box.shadow};
+        }
+      `
     }
 
     ${!!size && containerModifiers[size](theme)};
 
     ${!!minimal && containerModifiers.minimal(theme)};
+  `}
+`;
+
+export const Content = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
+export const IconContainer = styled.div<IconContainerProps>`
+  ${({ theme, positionIcon }) => css`
+    font-size: ${theme.font.sizes.medium};
+
+    display: flex;
+    align-items: center;
+
+    align-self: center;
+
+    ${positionIcon === 'right'
+      ? css`
+          margin-left: ${theme.spacings.xsmall};
+        `
+      : css`
+          margin-right: ${theme.spacings.xsmall};
+        `}
+
+    order: ${positionIcon === 'right' ? 1 : 0};
   `}
 `;
