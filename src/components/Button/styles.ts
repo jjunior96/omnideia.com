@@ -1,4 +1,4 @@
-import { darken } from 'polished';
+import { lighten, darken } from 'polished';
 import styled, { css, DefaultTheme } from 'styled-components';
 
 import { ButtonProps } from '.';
@@ -59,12 +59,12 @@ export const Container = styled.button<ButtonProps>`
     font-weight: ${theme.font.bold};
     font-size: ${theme.font.sizes.xsmall};
 
-    transition: background-color 0.3s, box-shadow 0.2s;
+    transition: background-color 0.3s, box-shadow 0.2s, outline 0.1s;
 
     outline: none;
 
     &:focus {
-      box-shadow: 0 0 0.5rem ${theme.colors.green};
+      outline: 3px solid ${lighten(0.2, theme.colors.purple_300)};
     }
 
     ${
