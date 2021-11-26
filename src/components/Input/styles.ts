@@ -68,7 +68,8 @@ export const IconContainer = styled.div<IconContainerProps>`
     cursor: default;
 
     &:focus-within {
-      box-shadow: 0 0 0.5rem ${theme.colors.green};
+      /* box-shadow: 0 0 0.5rem ${theme.colors.green}; */
+      outline: 3px solid ${lighten(0.2, theme.colors.purple_300)};
     }
 
     input {
@@ -128,11 +129,11 @@ export const IconContainer = styled.div<IconContainerProps>`
 
     ${isFocused &&
     css`
-      border-color: ${theme.colors.green};
-      color: ${theme.colors.green};
+      /* border-color: ${theme.colors.purple_300}; */
+      color: ${theme.colors.purple_300};
 
       > svg {
-        color: ${theme.colors.green};
+        color: ${theme.colors.purple_300};
       }
     `}
 
