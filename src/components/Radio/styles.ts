@@ -1,8 +1,15 @@
+import { lighten } from 'polished';
 import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
-  display: flex;
-  align-items: center;
+  ${({ theme }) => css`
+    display: flex;
+    align-items: center;
+
+    & + div {
+      margin-top: ${theme.spacings.xxxsmall};
+    }
+  `}
 `;
 
 export const Label = styled.label`
@@ -22,7 +29,7 @@ export const Input = styled.input`
     justify-content: center;
     appearance: none;
 
-    border: 0.2rem solid ${theme.colors.green};
+    border: 0.2rem solid ${theme.colors.purple_300};
 
     width: 1.8rem;
     height: 1.8rem;
@@ -41,7 +48,7 @@ export const Input = styled.input`
     transition: background ${theme.transition.fast};
 
     &:focus {
-      box-shadow: 0 0 0.5rem ${theme.colors.green};
+      outline: 3px solid ${lighten(0.2, theme.colors.purple_300)};
     }
 
     &:before {
@@ -51,7 +58,7 @@ export const Input = styled.input`
 
       border-radius: 50%;
 
-      background: ${theme.colors.green};
+      background: ${theme.colors.purple_300};
       transition: opacity ${theme.transition.fast};
 
       opacity: 0;

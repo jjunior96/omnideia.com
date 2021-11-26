@@ -19,7 +19,8 @@ export const Default: Story<InputProps> = (args) => (
   <div
     style={{
       width: '40rem',
-      margin: '0 auto'
+      margin: '0 auto',
+      marginTop: '0.4rem'
     }}
   >
     <Input {...args} />

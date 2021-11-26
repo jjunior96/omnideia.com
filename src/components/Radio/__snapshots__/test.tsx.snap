@@ -12,6 +12,10 @@ exports[`<Radio /> should render the Radio component 1`] = `
   align-items: center;
 }
 
+.c0 + div {
+  margin-top: 0.8rem;
+}
+
 .c2 {
   font-size: 1.6rem;
   color: #3E606F;
@@ -36,7 +40,7 @@ exports[`<Radio /> should render the Radio component 1`] = `
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border: 0.2rem solid #24A66B;
+  border: 0.2rem solid #5855E9;
   width: 1.8rem;
   height: 1.8rem;
   cursor: pointer;
@@ -50,7 +54,7 @@ exports[`<Radio /> should render the Radio component 1`] = `
 }
 
 .c1:focus {
-  box-shadow: 0 0 0.5rem #24A66B;
+  outline: 3px solid #b1aff5;
 }
 
 .c1:before {
@@ -58,7 +62,7 @@ exports[`<Radio /> should render the Radio component 1`] = `
   width: 0.8rem;
   height: 0.8rem;
   border-radius: 50%;
-  background: #24A66B;
+  background: #5855E9;
   -webkit-transition: opacity 0.1s ease-in-out;
   transition: opacity 0.1s ease-in-out;
   opacity: 0;

@@ -18,7 +18,7 @@ exports[`<Checkbox /> should render the Checkbox component 1`] = `
 }
 
 .c0:focus {
-  box-shadow: 0 0 0.5rem #24A66B;
+  outline: 3px solid #b1aff5;
 }
 
 <div
