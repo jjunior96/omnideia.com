@@ -1,3 +1,4 @@
+import { lighten } from 'polished';
 import styled, { css } from 'styled-components';
 
 export const Container = styled.div``;
@@ -21,7 +22,8 @@ export const Input = styled.input`
     outline: none;
 
     &:focus {
-      box-shadow: 0 0 0.5rem ${theme.colors.green};
+      /* box-shadow: 0 0 0.5rem ${theme.colors.purple_300}; */
+      outline: 3px solid ${lighten(0.2, theme.colors.purple_300)};
     }
   `}
 `;
