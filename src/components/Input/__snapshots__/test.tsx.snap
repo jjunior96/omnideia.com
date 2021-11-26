@@ -34,7 +34,7 @@ exports[`<Input /> should render the Input component 1`] = `
 }
 
 .c1:focus-within {
-  box-shadow: 0 0 0.5rem #24A66B;
+  outline: 3px solid #b1aff5;
 }
 
 .c1 input {
