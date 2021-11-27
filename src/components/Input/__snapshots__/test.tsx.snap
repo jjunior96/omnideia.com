@@ -16,7 +16,7 @@ exports[`<Input /> should render the Input component 1`] = `
 .c1 {
   background: #FAFAFA;
   color: #91AAB4;
-  border-radius: 0.4rem;
+  border-radius: 0.8rem;
   padding: 1.6rem 2rem;
   width: 100%;
   height: 56px;
