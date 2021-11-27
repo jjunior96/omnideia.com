@@ -18,21 +18,6 @@ describe('<Container />', () => {
       'max-width': '130rem'
     });
 
-    expect(container.firstChild).toMatchInlineSnapshot(`
-      .c0 {
-        width: 100%;
-        max-width: 130rem;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      <div
-        class="c0"
-      >
-        <p>
-          Test container
-        </p>
-      </div>
-    `);
+    expect(container.firstChild).toMatchSnapshot();
   });
 });

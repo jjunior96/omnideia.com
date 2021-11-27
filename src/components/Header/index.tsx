@@ -1,4 +1,4 @@
-import React from 'react';
+import { RiMenu3Fill as MenuIcon } from 'react-icons/ri';
 
 import ActiveLink from 'components/ActiveLink';
 import Logo from 'components/Logo';
@@ -20,6 +20,10 @@ const Header = () => {
               </ActiveLink>
             </S.MenuItem>
           ))}
+
+          <S.MenuSandwich>
+            <MenuIcon />
+          </S.MenuSandwich>
         </S.MenuContainer>
       </S.Content>
     </S.Container>

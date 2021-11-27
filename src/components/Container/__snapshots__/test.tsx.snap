@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Container /> should render the heading 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 130rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1.6rem;
+}
+
+<div
+  class="c0"
+>
+  <p>
+    Test container
+  </p>
+</div>
+`;

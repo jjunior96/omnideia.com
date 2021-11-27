@@ -17,7 +17,7 @@ exports[`<FormSignIn /> should render the form correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border-radius: 0.4rem;
+  border-radius: 0.8rem;
   border: 0;
   padding: 0 1.6rem;
   padding-left: 2.4rem;
@@ -65,7 +65,7 @@ exports[`<FormSignIn /> should render the form correctly 1`] = `
 .c2 {
   background: #FAFAFA;
   color: #91AAB4;
-  border-radius: 0.4rem;
+  border-radius: 0.8rem;
   padding: 1.6rem 2rem;
   width: 100%;
   height: 56px;

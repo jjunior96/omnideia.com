@@ -7,7 +7,9 @@ import Button from 'components/Button';
 import Container from 'components/Container';
 import Header from 'components/Header';
 import Heading from 'components/Heading';
+import SectionInfo from 'components/SectionInfo';
 
+import InfoMock from './mock';
 import * as S from './styles';
 
 const Home = () => {
@@ -31,6 +33,8 @@ const Home = () => {
             <Image src="/img/image-people.png" width="1000" height="1000" />
           </S.SectionImage>
         </S.SectionContainer>
+
+        <SectionInfo info={InfoMock} />
       </Container>
     </S.Container>
   );
