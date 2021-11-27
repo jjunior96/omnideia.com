@@ -1,13 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Footer /> should render the heading 1`] = `
-.c5 {
+.c6 {
   color: #0D0D0D;
   font-size: 1.6rem;
 }
 
 .c1 {
   color: #0D0D0D;
+  position: relative;
   width: 11rem;
   height: 3.3rem;
 }
@@ -18,19 +19,29 @@ exports[`<Footer /> should render the heading 1`] = `
   height: 3.2rem;
 }
 
-.c0 .c4 {
+.c2 {
+  position: absolute;
+  pointer-events: none;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 8px;
+  left: 1rem;
+  top: 0.3rem;
+}
+
+.c0 .c5 {
   text-transform: uppercase;
 }
 
-.c2 {
+.c3 {
   display: grid;
   grid-template-columns: minmax(auto,50%) 1fr;
   gap: 3.2rem;
   margin-top: 3.2rem;
 }
 
-.c3 a,
-.c3 span {
+.c4 a,
+.c4 span {
   display: block;
   color: #19272e;
   -webkit-text-decoration: none;
@@ -39,17 +50,17 @@ exports[`<Footer /> should render the heading 1`] = `
   font-size: 2rem;
 }
 
-.c3 a {
+.c4 a {
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
 
-.c3 a:hover {
+.c4 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c6 {
+.c7 {
   color: #3E606F;
   font-size: 1.4rem;
   margin-top: 4.0rem;
@@ -58,7 +69,7 @@ exports[`<Footer /> should render the heading 1`] = `
 }
 
 @media (min-width:768px) {
-  .c2 {
+  .c3 {
     grid-template-columns: repeat(4,1fr);
   }
 }
@@ -70,6 +81,9 @@ exports[`<Footer /> should render the heading 1`] = `
     class="c1"
     color="black"
   >
+    <div
+      class="c2"
+    />
     <a
       href="/"
     >
@@ -90,13 +104,13 @@ exports[`<Footer /> should render the heading 1`] = `
     </a>
   </div>
   <div
-    class="c2"
+    class="c3"
   >
     <div
-      class="c3"
+      class="c4"
     >
       <h2
-        class="c4 c5"
+        class="c5 c6"
         color="black"
       >
         Contact Us
@@ -109,10 +123,10 @@ exports[`<Footer /> should render the heading 1`] = `
     </div>
     <div
       aria-labelledby="social-media"
-      class="c3"
+      class="c4"
     >
       <h2
-        class="c4 c5"
+        class="c5 c6"
         color="black"
       >
         Follow us
@@ -152,10 +166,10 @@ exports[`<Footer /> should render the heading 1`] = `
     </div>
     <div
       aria-labelledby="resources"
-      class="c3"
+      class="c4"
     >
       <h2
-        class="c4 c5"
+        class="c5 c6"
         color="black"
       >
         Links
@@ -182,10 +196,10 @@ exports[`<Footer /> should render the heading 1`] = `
     </div>
     <div
       aria-label="contact"
-      class="c3"
+      class="c4"
     >
       <h2
-        class="c4 c5"
+        class="c5 c6"
         color="black"
       >
         Location
@@ -202,7 +216,7 @@ exports[`<Footer /> should render the heading 1`] = `
     </div>
   </div>
   <div
-    class="c6"
+    class="c7"
   >
     Won Games 
     2021
