@@ -23,6 +23,7 @@ const Logo = ({
 
   return (
     <S.Container color={color} size={size} hideOnMobile={hideOnMobile}>
+      <S.IconLight isHover={isHover} />
       <Link href="/">
         <a
           onMouseEnter={() => setIsHover(true)}
