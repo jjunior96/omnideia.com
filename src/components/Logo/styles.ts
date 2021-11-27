@@ -34,6 +34,8 @@ export const Container = styled.div<LogoProps>`
   ${({ theme, color, size, hideOnMobile }) => css`
     color: ${theme.colors[color!]};
 
+    position: relative;
+
     svg {
       color: ${theme.colors.purple_300};
 
@@ -43,5 +45,31 @@ export const Container = styled.div<LogoProps>`
 
     ${!!size && containerModifiers[size]}
     ${!!hideOnMobile && containerModifiers.hideOnMobile}
+  `}
+`;
+
+type IconLightProps = {
+  isHover: boolean;
+};
+
+export const IconLight = styled.div<IconLightProps>`
+  ${({ theme, isHover }) => css`
+    position: absolute;
+
+    pointer-events: none;
+
+    width: 1.4rem;
+    height: 1.4rem;
+
+    border-radius: 8px;
+
+    left: 1rem;
+    top: 0.3rem;
+
+    ${isHover &&
+    css`
+      background-color: ${theme.colors.purple_300};
+      box-shadow: 0 -2px 12px ${theme.colors.purple_300};
+    `}
   `}
 `;
