@@ -160,7 +160,7 @@ exports[`<SectionInfo /> should render the heading 1`] = `
 
 <section
   aria-label="Section info"
-  class="styles__Container-sc-ig2c47-0"
+  class=""
 >
   <div
     class="c0"

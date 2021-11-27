@@ -89,7 +89,7 @@ exports[`<Input /> should render the Input component 1`] = `
 }
 
 <div
-  class="styles__Container-sc-1scclvv-0"
+  class=""
 >
   <label
     class="c0"

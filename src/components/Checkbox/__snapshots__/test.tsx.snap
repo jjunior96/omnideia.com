@@ -22,7 +22,7 @@ exports[`<Checkbox /> should render the Checkbox component 1`] = `
 }
 
 <div
-  class="styles__Container-sc-1oopzgh-0"
+  class=""
 >
   <input
     aria-label="name-checkbox"
