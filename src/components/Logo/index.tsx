@@ -1,5 +1,9 @@
 import Link from 'next/link';
-import { BsLightbulb as IdeaIcon } from 'react-icons/bs';
+import { useState } from 'react';
+import {
+  BsLightbulb as IdeaOutlineIcon,
+  BsLightbulbFill as IdeaFillIcon
+} from 'react-icons/bs';
 
 import * as S from './styles';
 
@@ -14,14 +18,21 @@ const Logo = ({
   color = 'white',
   size = 'normal',
   hideOnMobile = false
-}: LogoProps) => (
-  <S.Container color={color} size={size} hideOnMobile={hideOnMobile}>
-    <Link href="/">
-      <a>
-        <IdeaIcon data-testid="Logo" />
-      </a>
-    </Link>
-  </S.Container>
-);
+}: LogoProps) => {
+  const [isHover, setIsHover] = useState(false);
+
+  return (
+    <S.Container color={color} size={size} hideOnMobile={hideOnMobile}>
+      <Link href="/">
+        <a
+          onMouseEnter={() => setIsHover(true)}
+          onMouseLeave={() => setIsHover(false)}
+        >
+          {isHover ? <IdeaFillIcon /> : <IdeaOutlineIcon data-testid="Logo" />}
+        </a>
+      </Link>
+    </S.Container>
+  );
+};
 
 export default Logo;
