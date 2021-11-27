@@ -3,6 +3,7 @@
 exports[`<Logo /> should render a white label by default 1`] = `
 .c0 {
   color: #FAFAFA;
+  position: relative;
   width: 11rem;
   height: 3.3rem;
 }
@@ -13,11 +14,24 @@ exports[`<Logo /> should render a white label by default 1`] = `
   height: 3.2rem;
 }
 
+.c1 {
+  position: absolute;
+  pointer-events: none;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 8px;
+  left: 1rem;
+  top: 0.3rem;
+}
+
 <div>
   <div
     class="c0"
     color="white"
   >
+    <div
+      class="c1"
+    />
     <a
       href="/"
     >
