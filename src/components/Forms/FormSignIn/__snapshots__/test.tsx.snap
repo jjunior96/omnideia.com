@@ -180,16 +180,16 @@ exports[`<FormSignIn /> should render the form correctly 1`] = `
 }
 
 <form
-  class="styles__Container-sc-1m7ukcm-0"
+  class=""
 >
   <div
     class="c0"
   >
     <div
-      class="styles__Container-sc-12pvpyf-0"
+      class=""
     >
       <div
-        class="styles__Container-sc-1scclvv-0"
+        class=""
       >
         <label
           class="c1"
@@ -230,7 +230,7 @@ exports[`<FormSignIn /> should render the form correctly 1`] = `
         </div>
       </div>
       <div
-        class="styles__Container-sc-1scclvv-0"
+        class=""
       >
         <label
           class="c1"
