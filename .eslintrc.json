@@ -41,12 +41,12 @@
           "module",
           "/^@shared/",
           "absolute",
+          "/^templates/",
           "/^components/",
           "/^pages/",
           "/utils/",
           "/^store/",
           "/^styles/",
-          "/^templates/",
           ["parent", "sibling", "index"]
         ],
         "alphabetize": { "order": "asc", "ignoreCase": true }
