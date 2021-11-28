@@ -25,7 +25,7 @@ describe('<Input />', () => {
 
     expect(screen.getByText(/name/i)).toHaveStyle({
       'font-size': '1.4rem',
-      color: `${theme.colors.black}`
+      color: `${theme.colors.gray_300}`
     });
   });
 
