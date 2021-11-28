@@ -15,7 +15,7 @@ export const Label = styled.label`
 
 export const Input = styled.input`
   ${({ theme }) => css`
-    color: ${theme.colors.black};
+    color: ${theme.colors.gray_300};
     background: transparent;
     border: 0;
     margin-right: ${theme.spacings.xxxsmall};
