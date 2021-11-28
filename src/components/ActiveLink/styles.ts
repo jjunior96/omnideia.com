@@ -9,7 +9,9 @@ export const LinkActived = styled.a<LinkActivedProps>`
   ${({ theme, isActive }) => css`
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
+
+    position: relative;
 
     cursor: pointer;
 
@@ -26,13 +28,22 @@ export const LinkActived = styled.a<LinkActivedProps>`
 
     transition: color ${theme.transition.default};
 
-    p {
-      margin-left: ${theme.spacings.xxsmall};
-    }
-
     ${isActive &&
     css`
       color: ${shade(0.2, theme.colors.purple_300)};
+
+      p {
+        &::after {
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: -0.5rem;
+          width: 100%;
+          border-bottom: 0.2rem solid ${theme.colors.purple_300};
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
     `}
 
     &:hover {
