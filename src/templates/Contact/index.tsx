@@ -1,16 +1,33 @@
+import { useCallback } from 'react';
+import { useForm } from 'react-hook-form';
+
 import Button from 'components/Button';
 import Checkbox from 'components/Checkbox';
 import Form from 'components/Form';
+import Header from 'components/Header';
 import Heading from 'components/Heading';
 import Input from 'components/Input';
 
 import * as S from './styles';
 
 const Contact = () => {
+  const { handleSubmit } = useForm();
+
+  const handleSubmitContact = useCallback((data) => {
+    console.log(data);
+  }, []);
+
   return (
     <S.Container>
+      <Header />
       <S.Content>
-        <Form onSubmit={() => console.log('')}>
+        <S.ImageContainer role="img" title="A people grab a lamp">
+          <S.ImageInfo>
+            <Heading size="large">We&#39;d love to hear from you</Heading>
+          </S.ImageInfo>
+        </S.ImageContainer>
+
+        <Form onSubmit={handleSubmit(handleSubmitContact)}>
           <Heading>Level up your brand</Heading>
 
           <S.SubTitle>

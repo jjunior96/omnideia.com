@@ -50,8 +50,8 @@ export const MenuItem = styled.li`
     }
 
     ${media.lessThan('medium')`
-    display: none;
-    opacity: 0;
+      display: none;
+      opacity: 0;
     `};
   `}
 `;
