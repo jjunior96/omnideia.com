@@ -52,10 +52,11 @@ exports[`<FormSignIn /> should render the form correctly 1`] = `
 
 .c1 {
   font-size: 1.4rem;
+  font-weight: 600;
   margin: 0;
   padding: 0;
   line-height: 1;
-  color: #0D0D0D;
+  color: #3E606F;
 }
 
 .c1 span {
@@ -78,7 +79,7 @@ exports[`<FormSignIn /> should render the form correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: 2px solid #3E606F;
+  border: 2px solid #91AAB4;
   cursor: default;
 }
 

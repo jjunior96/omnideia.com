@@ -19,7 +19,7 @@ describe('<Checkbox />', () => {
     expect(labelElement).toBeInTheDocument();
     expect(labelElement).toHaveStyle({
       'font-size': '1.6rem',
-      color: `${theme.colors.gray_300}`,
+      color: theme.colors.gray_300,
       margin: 0,
       padding: 0
     });
@@ -31,7 +31,7 @@ describe('<Checkbox />', () => {
     // Input test
     expect(inputElement).toBeInTheDocument();
     expect(inputElement).toHaveStyle({
-      color: '#0D0D0D',
+      color: theme.colors.gray_300,
       background: 'transparent',
       border: '0',
       'margin-right': '0.8rem'

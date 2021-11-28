@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
 import { BsArrowRight as ArrowRightIcon } from 'react-icons/bs';
+
+import Base from 'templates/Base';
 
 import Button from 'components/Button';
 import Container from 'components/Container';
-import Header from 'components/Header';
 import Heading from 'components/Heading';
 import SectionInfo from 'components/SectionInfo';
 
@@ -14,9 +14,7 @@ import * as S from './styles';
 
 const Home = () => {
   return (
-    <S.Container>
-      <Header />
-
+    <Base>
       <Container>
         <S.SectionContainer>
           <S.SectionInfo>
@@ -30,13 +28,18 @@ const Home = () => {
           </S.SectionInfo>
 
           <S.SectionImage>
-            <Image src="/img/image-people.png" width="1000" height="1000" />
+            <Image
+              src="/img/image-people.png"
+              width="1000"
+              height="1000"
+              alt="People together"
+            />
           </S.SectionImage>
         </S.SectionContainer>
 
         <SectionInfo info={InfoMock} />
       </Container>
-    </S.Container>
+    </Base>
   );
 };
 

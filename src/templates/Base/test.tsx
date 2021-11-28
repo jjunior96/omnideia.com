@@ -2,7 +2,7 @@ import { screen } from '@testing-library/react';
 
 import { renderWithTheme } from 'utils/tests/helpers';
 
-import Home from '.';
+import Base from '.';
 
 // Mock para o componente Header
 jest.mock('components/Header', () => {
@@ -24,26 +24,20 @@ jest.mock('components/Footer', () => {
   };
 });
 
-describe('<Home />', () => {
-  it('should render the Home page', () => {
-    renderWithTheme(<Home />);
+describe('<Base />', () => {
+  it('should render correctly', () => {
+    renderWithTheme(
+      <Base>
+        <h1>content</h1>
+      </Base>
+    );
 
     // Verifica se o Mock do Header foi chamado
     expect(screen.getByTestId('Mock Header')).toBeInTheDocument();
 
-    // Verifica se o Heading da pagina foi renderizado
+    // Verifica se renderizou o children
     expect(
-      screen.getByRole('heading', { name: /A digital Product design agency/i })
-    ).toBeInTheDocument();
-
-    // Verifica se o Button (as Link) da pagina foi renderizado
-    expect(
-      screen.getByRole('link', { name: /Our Services/i })
-    ).toBeInTheDocument();
-
-    // Verifica se a Image da pagina foi renderizada
-    expect(
-      screen.getByRole('img', { name: /people together/i })
+      screen.getByRole('heading', { name: /content/i })
     ).toBeInTheDocument();
 
     // Verifica se o Mock do Footer foi chamado
