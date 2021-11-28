@@ -20,6 +20,7 @@ export const Container = styled.div``;
 export const Label = styled.label<LabelProps>`
   ${({ theme, isRequired, isDisabled, labelColor }) => css`
     font-size: ${theme.font.sizes.xxsmall};
+    font-weight: ${theme.font.bold};
     margin: 0;
     padding: 0;
     line-height: 1;
@@ -28,7 +29,9 @@ export const Label = styled.label<LabelProps>`
       display: none;
     }
 
-    color: ${labelColor === 'white' ? theme.colors.white : theme.colors.black};
+    color: ${labelColor === 'white'
+      ? theme.colors.white
+      : theme.colors.gray_300};
 
     ${isRequired &&
     css`
@@ -63,12 +66,11 @@ export const IconContainer = styled.div<IconContainerProps>`
     display: flex;
     align-items: center;
 
-    border: 2px solid ${theme.colors.gray_300};
+    border: 2px solid ${theme.colors.gray_200};
 
     cursor: default;
 
     &:focus-within {
-      /* box-shadow: 0 0 0.5rem ${theme.colors.green}; */
       outline: 3px solid ${lighten(0.2, theme.colors.purple_300)};
     }
 
