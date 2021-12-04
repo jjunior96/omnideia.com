@@ -29,7 +29,7 @@ const Home = () => {
 
           <S.SectionImage>
             <Image
-              src="/img/image-people.png"
+              src="/img/image-people.jpg"
               layout="fill"
               alt="People together"
               objectFit="cover"
