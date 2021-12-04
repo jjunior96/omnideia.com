@@ -1,75 +1,65 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Footer /> should render the heading 1`] = `
-.c6 {
-  color: #0D0D0D;
+.c4 {
+  color: #FAFAFA;
   font-size: 1.6rem;
 }
 
-.c1 {
-  color: #0D0D0D;
-  position: relative;
-  width: 11rem;
-  height: 3.3rem;
+.c0 {
+  margin-top: 4.0rem;
+  padding-top: 3.2rem;
+  color: #FAFAFA;
+  background-color: #5855E9;
 }
 
-.c1 svg {
-  color: #5855E9;
-  width: 3.2rem;
-  height: 3.2rem;
-}
-
-.c2 {
-  position: absolute;
-  pointer-events: none;
-  width: 1.4rem;
-  height: 1.4rem;
-  border-radius: 8px;
-  left: 1rem;
-  top: 0.3rem;
-}
-
-.c0 .c5 {
+.c0 .c3 {
   text-transform: uppercase;
+  margin-bottom: 1.6rem;
 }
 
-.c3 {
+.c1 {
   display: grid;
   grid-template-columns: minmax(auto,50%) 1fr;
   gap: 3.2rem;
+  margin: 0 auto;
   margin-top: 3.2rem;
+  max-width: 130rem;
 }
 
-.c4 a,
-.c4 span {
+.c2 a,
+.c2 span {
   display: block;
-  color: #19272e;
+  color: #FAFAFA;
   -webkit-text-decoration: none;
   text-decoration: none;
   margin-bottom: 1rem;
   font-size: 2rem;
 }
 
-.c4 a {
+.c2 a {
   word-wrap: break-word;
   overflow-wrap: break-word;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
-.c4 a:hover {
+.c2 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c7 {
-  color: #3E606F;
+.c5 {
+  color: #FAFAFA;
   font-size: 1.4rem;
   margin-top: 4.0rem;
-  margin-bottom: 3.2rem;
+  padding-bottom: 3.2rem;
   text-align: center;
 }
 
 @media (min-width:768px) {
-  .c3 {
+  .c1 {
     grid-template-columns: repeat(4,1fr);
   }
 }
@@ -79,55 +69,29 @@ exports[`<Footer /> should render the heading 1`] = `
 >
   <div
     class="c1"
-    color="black"
   >
     <div
       class="c2"
-    />
-    <a
-      href="/"
-    >
-      <svg
-        data-testid="Logo"
-        fill="currentColor"
-        height="1em"
-        stroke="currentColor"
-        stroke-width="0"
-        viewBox="0 0 16 16"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"
-        />
-      </svg>
-    </a>
-  </div>
-  <div
-    class="c3"
-  >
-    <div
-      class="c4"
     >
       <h2
-        class="c5 c6"
-        color="black"
+        class="c3 c4"
+        color="white"
       >
         Contact Us
       </h2>
       <a
-        href="mailto:sac@wongames.com"
+        href="mailto:sac@omnideia.com"
       >
-        sac@wongames.com
+        sac@omnideia.com
       </a>
     </div>
     <div
       aria-labelledby="social-media"
-      class="c4"
+      class="c2"
     >
       <h2
-        class="c5 c6"
-        color="black"
+        class="c3 c4"
+        color="white"
       >
         Follow us
       </h2>
@@ -135,28 +99,28 @@ exports[`<Footer /> should render the heading 1`] = `
         id="social-media"
       >
         <a
-          href="https://www.instagram.com/won-games"
+          href="https://www.instagram.com/omnideia"
           rel="noopenner, noreferrer"
           target="_blank"
         >
           Instagram
         </a>
         <a
-          href="https://www.twitter.com/won-games"
+          href="https://www.twitter.com/omnideia"
           rel="noopenner, noreferrer"
           target="_blank"
         >
           Twitter
         </a>
         <a
-          href="https://www.youtube.com/won-games"
+          href="https://www.youtube.com/omnideia"
           rel="noopenner, noreferrer"
           target="_blank"
         >
           Youtube
         </a>
         <a
-          href="https://www.facebook.com/won-games"
+          href="https://www.facebook.com/omnideia"
           rel="noopenner, noreferrer"
           target="_blank"
         >
@@ -166,11 +130,11 @@ exports[`<Footer /> should render the heading 1`] = `
     </div>
     <div
       aria-labelledby="resources"
-      class="c4"
+      class="c2"
     >
       <h2
-        class="c5 c6"
-        color="black"
+        class="c3 c4"
+        color="white"
       >
         Links
       </h2>
@@ -183,24 +147,34 @@ exports[`<Footer /> should render the heading 1`] = `
           Home
         </a>
         <a
-          href="/games"
+          href="/services"
         >
-          Store
+          Services
         </a>
         <a
-          href="/search"
+          href="/projects"
         >
-          Buscar
+          Projects
+        </a>
+        <a
+          href="/contact"
+        >
+          Contact
+        </a>
+        <a
+          href="/about"
+        >
+          About
         </a>
       </nav>
     </div>
     <div
       aria-label="contact"
-      class="c4"
+      class="c2"
     >
       <h2
-        class="c5 c6"
-        color="black"
+        class="c3 c4"
+        color="white"
       >
         Location
       </h2>
@@ -216,9 +190,9 @@ exports[`<Footer /> should render the heading 1`] = `
     </div>
   </div>
   <div
-    class="c7"
+    class="c5"
   >
-    Won Games 
+    Omnideia 
     2021
      © All rights reserved.
   </div>
