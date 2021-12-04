@@ -32,6 +32,8 @@ export const SectionInfo = styled.div`
       width: 50%;
 
       margin-top: ${theme.spacings.medium};
+
+      box-shadow: 0 0 32px ${theme.colors.purple_300};
     }
 
     ${media.lessThan('medium')`
@@ -57,15 +59,14 @@ export const SectionInfo = styled.div`
 `;
 
 export const SectionImage = styled.div`
-  img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
 
-    ${media.lessThan('medium')`
+  ${media.lessThan('medium')`
       display: none;
       opacity: 0;
     `}
-  }
 `;
 
 export const SectionCards = styled.section`
