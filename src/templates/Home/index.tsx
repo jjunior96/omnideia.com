@@ -30,9 +30,12 @@ const Home = () => {
           <S.SectionImage>
             <Image
               src="/img/image-people.png"
-              width="1000"
-              height="1000"
+              layout="fill"
               alt="People together"
+              objectFit="cover"
+              priority
+              placeholder="blur"
+              blurDataURL="/img/image-people-blur.png"
             />
           </S.SectionImage>
         </S.SectionContainer>

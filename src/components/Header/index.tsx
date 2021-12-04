@@ -8,7 +8,7 @@ import ActiveLink from 'components/ActiveLink';
 import Button from 'components/Button';
 import Logo from 'components/Logo';
 
-import HeaderData from './data';
+import MenuData from './data';
 import * as S from './styles';
 
 export type HeaderProps = {
@@ -30,7 +30,7 @@ const Header = ({ username }: HeaderProps) => {
         </S.IconContainer>
 
         <S.MenuNavFull>
-          {HeaderData.map((item) => (
+          {MenuData.map((item) => (
             <S.MenuItem key={item.id}>
               <ActiveLink href={item.path}>
                 <S.MenuName>{item.name}</S.MenuName>
@@ -43,7 +43,7 @@ const Header = ({ username }: HeaderProps) => {
           <CloseIcon aria-label="Close menu" onClick={() => setIsOpen(false)} />
 
           <S.MenuNav>
-            {HeaderData.map((item) => (
+            {MenuData.map((item) => (
               <S.MenuItem key={item.id}>
                 <ActiveLink href={item.path}>
                   <S.MenuName>{item.name}</S.MenuName>

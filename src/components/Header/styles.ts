@@ -15,7 +15,9 @@ export const Container = styled.menu`
 
     box-shadow: ${theme.box.shadow};
 
-    background-color: ${theme.colors.white};
+    background-color: rgba(255, 255, 255, 0.7);
+
+    backdrop-filter: blur(10px);
 
     padding: ${theme.spacings.xxsmall} ${theme.spacings.xsmall};
 

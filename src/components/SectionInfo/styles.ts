@@ -3,7 +3,11 @@ import media from 'styled-media-query';
 
 import * as CardInfoStyles from 'components/CardInfo/styles';
 
-export const Container = styled.section``;
+export const Container = styled.section`
+  ${({ theme }) => css`
+    margin: ${theme.spacings.xxxlarge} 0;
+  `}
+`;
 
 export const Content = styled.div`
   ${({ theme }) => css`
@@ -19,6 +23,8 @@ export const Content = styled.div`
 
       ${CardInfoStyles.Container} {
         margin-top: ${theme.spacings.small};
+
+        text-align: center;
       }
     `}
   `};

@@ -1,4 +1,4 @@
-const HeaderData = [
+const MenuData = [
   {
     id: '1',
     name: 'Home',
@@ -26,4 +26,4 @@ const HeaderData = [
   }
 ];
 
-export default HeaderData;
+export default MenuData;

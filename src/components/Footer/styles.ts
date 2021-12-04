@@ -5,9 +5,21 @@ import media from 'styled-media-query';
 import * as HeadingStyles from 'components/Heading/styles';
 
 export const Container = styled.footer`
-  ${HeadingStyles.Container} {
-    text-transform: uppercase;
-  }
+  ${({ theme }) => css`
+    margin-top: ${theme.spacings.large};
+
+    padding-top: ${theme.spacings.medium};
+
+    color: ${theme.colors.white};
+
+    background-color: ${theme.colors.purple_300};
+
+    ${HeadingStyles.Container} {
+      text-transform: uppercase;
+
+      margin-bottom: ${theme.spacings.xsmall};
+    }
+  `}
 `;
 
 export const Content = styled.div`
@@ -16,7 +28,11 @@ export const Content = styled.div`
     grid-template-columns: minmax(auto, 50%) 1fr;
     gap: ${theme.grid.gutter};
 
+    margin: 0 auto;
+
     margin-top: ${theme.spacings.medium};
+
+    max-width: ${theme.grid.container};
 
     ${media.greaterThan('medium')`
       grid-template-columns: repeat(4, 1fr)
@@ -30,7 +46,8 @@ export const Column = styled.div`
     span {
       display: block;
 
-      color: ${darken(0.2, theme.colors.gray_300)};
+      /* color: ${darken(0.2, theme.colors.gray_300)}; */
+      color: ${theme.colors.white};
 
       text-decoration: none;
 
@@ -42,6 +59,7 @@ export const Column = styled.div`
     a {
       word-wrap: break-word;
       overflow-wrap: break-word;
+      width: fit-content;
     }
 
     a:hover {
@@ -52,10 +70,12 @@ export const Column = styled.div`
 
 export const Copyright = styled.div`
   ${({ theme }) => css`
-    color: ${theme.colors.gray_300};
+    /* color: ${theme.colors.gray_300}; */
+
+    color: ${theme.colors.white};
     font-size: ${theme.font.sizes.xxsmall};
     margin-top: ${theme.spacings.large};
-    margin-bottom: ${theme.spacings.medium};
+    padding-bottom: ${theme.spacings.medium};
     text-align: center;
   `}
 `;
