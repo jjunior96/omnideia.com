@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<SectionInfo /> should render the heading 1`] = `
-.c2 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -9,7 +9,7 @@ exports[`<SectionInfo /> should render the heading 1`] = `
   width: 100%;
 }
 
-.c3 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -21,7 +21,7 @@ exports[`<SectionInfo /> should render the heading 1`] = `
   width: 100%;
 }
 
-.c4 {
+.c5 {
   border-radius: 2rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -46,45 +46,12 @@ exports[`<SectionInfo /> should render the heading 1`] = `
   background-color: #f9e8a0;
 }
 
-.c4 > svg {
+.c5 > svg {
   font-size: 4rem;
 }
 
-.c4 > svg {
+.c5 > svg {
   color: #F1C40F;
-}
-
-.c7 {
-  border-radius: 2rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 1rem;
-  margin-bottom: 1.6rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  background-color: #80e3b6;
-}
-
-.c7 > svg {
-  font-size: 4rem;
-}
-
-.c7 > svg {
-  color: #24A66B;
 }
 
 .c8 {
@@ -109,7 +76,7 @@ exports[`<SectionInfo /> should render the heading 1`] = `
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: #dddcfb;
+  background-color: #80e3b6;
 }
 
 .c8 > svg {
@@ -117,16 +84,49 @@ exports[`<SectionInfo /> should render the heading 1`] = `
 }
 
 .c8 > svg {
+  color: #24A66B;
+}
+
+.c9 {
+  border-radius: 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 1rem;
+  margin-bottom: 1.6rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #dddcfb;
+}
+
+.c9 > svg {
+  font-size: 4rem;
+}
+
+.c9 > svg {
   color: #5855E9;
 }
 
-.c5 {
+.c6 {
   font-size: 3.2rem;
   font-weight: 600;
   color: #343a40;
 }
 
-.c6 {
+.c7 {
   font-size: 1.6rem;
   font-weight: 400;
   color: #3E606F;
@@ -135,12 +135,16 @@ exports[`<SectionInfo /> should render the heading 1`] = `
 }
 
 .c0 {
+  margin: 6.4rem 0;
+}
+
+.c1 {
   display: grid;
   grid-template-columns: repeat(3,1fr);
 }
 
 @media (max-width:768px) {
-  .c0 {
+  .c1 {
     grid-template-columns: 1fr;
     -webkit-align-items: center;
     -webkit-box-align: center;
@@ -153,26 +157,27 @@ exports[`<SectionInfo /> should render the heading 1`] = `
     margin-top: -5rem;
   }
 
-  .c0 .c1 {
+  .c1 .c2 {
     margin-top: 2.4rem;
+    text-align: center;
   }
 }
 
 <section
   aria-label="Section info"
-  class=""
+  class="c0"
 >
   <div
-    class="c0"
+    class="c1"
   >
     <div
-      class="c1 c2"
+      class="c2 c3"
     >
       <section
-        class="c3"
+        class="c4"
       >
         <div
-          class="c4"
+          class="c5"
         >
           <svg
             fill="currentColor"
@@ -229,25 +234,25 @@ exports[`<SectionInfo /> should render the heading 1`] = `
           </svg>
         </div>
         <h2
-          class="c5"
+          class="c6"
         >
           Business Planing
         </h2>
         <p
-          class="c6"
+          class="c7"
         >
           Our Business Plan is a written document describing a companys core business activities, objectives, and how it plans to achieve its goals.
         </p>
       </section>
     </div>
     <div
-      class="c1 c2"
+      class="c2 c3"
     >
       <section
-        class="c3"
+        class="c4"
       >
         <div
-          class="c7"
+          class="c8"
         >
           <svg
             fill="currentColor"
@@ -264,25 +269,25 @@ exports[`<SectionInfo /> should render the heading 1`] = `
           </svg>
         </div>
         <h2
-          class="c5"
+          class="c6"
         >
           Financial Planing
         </h2>
         <p
-          class="c6"
+          class="c7"
         >
           OurExpert team sensible decisions about their money, to ensure they achieve their life goals. A financial plan, generally, provides a roadmap for achieving your life goals.
         </p>
       </section>
     </div>
     <div
-      class="c1 c2"
+      class="c2 c3"
     >
       <section
-        class="c3"
+        class="c4"
       >
         <div
-          class="c8"
+          class="c9"
         >
           <svg
             fill="currentColor"
@@ -299,12 +304,12 @@ exports[`<SectionInfo /> should render the heading 1`] = `
           </svg>
         </div>
         <h2
-          class="c5"
+          class="c6"
         >
           Market Analysis
         </h2>
         <p
-          class="c6"
+          class="c7"
         >
           A market analysis is a quantitative and qualitative assessment of a market. It looks into the size of the market both in volume and in value the various customer segments and buying.
         </p>
