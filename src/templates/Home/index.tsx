@@ -33,9 +33,6 @@ const Home = () => {
               layout="fill"
               alt="People together"
               objectFit="cover"
-              priority
-              placeholder="blur"
-              blurDataURL="/img/image-people-blur.png"
             />
           </S.SectionImage>
         </S.SectionContainer>
