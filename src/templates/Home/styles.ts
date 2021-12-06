@@ -9,8 +9,6 @@ export const Container = styled.div``;
 
 export const SectionContainer = styled.section`
   ${({ theme }) => css`
-    margin-top: ${theme.grid.header};
-
     height: calc(100vh - ${theme.grid.header});
 
     display: grid;

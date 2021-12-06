@@ -11,7 +11,7 @@ const Base = ({ children }: BaseProps) => {
   return (
     <S.Container>
       <Header />
-      {children}
+      <S.Content>{children}</S.Content>
       <Footer />
     </S.Container>
   );
