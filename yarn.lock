@@ -3576,10 +3576,10 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-2.0.1.tgz#20f18294f797f2209b5f65c8e3b5c8e8261d127c"
   integrity sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==
 
-"@types/styled-components@^5.1.16":
-  version "5.1.16"
-  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-5.1.16.tgz#e6cb31301ff8d6b99e25502d2bea754069c1efc9"
-  integrity sha512-pj5zI2VvK86VB9vS5exwXpIvQxiiwVfBTmMYcfMzwQAhB6s+x0a7o2JKzsGviWgjjosuwfYlOyf3JrEvmLPhtg==
+"@types/styled-components@^5.1.17":
+  version "5.1.17"
+  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-5.1.17.tgz#0b5ecf748eb5fb81db4b4115b168a162379c181b"
+  integrity sha512-niMaIan3C2LYCGEPntljGrkxLBfz1RZf4WTTv7w9GJygMsCOl226/UoSwXC8dIHCHs4sQKFQUs5JtdL2hj7k0g==
   dependencies:
     "@types/hoist-non-react-statics" "*"
     "@types/react" "*"
@@ -9171,19 +9171,7 @@ jest-util@^26.6.2:
     is-ci "^2.0.0"
     micromatch "^4.0.2"
 
-jest-util@^27.0.0:
-  version "27.3.1"
-  resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-27.3.1.tgz#a58cdc7b6c8a560caac9ed6bdfc4e4ff23f80429"
-  integrity sha512-8fg+ifEH3GDryLQf/eKZck1DEs2YuVPBCMOaHQxVVLmQwl/CDhWzrvChTX4efLZxGrw+AA0mSXv78cyytBt/uw==
-  dependencies:
-    "@jest/types" "^27.2.5"
-    "@types/node" "*"
-    chalk "^4.0.0"
-    ci-info "^3.2.0"
-    graceful-fs "^4.2.4"
-    picomatch "^2.2.3"
-
-jest-util@^27.4.2:
+jest-util@^27.0.0, jest-util@^27.4.2:
   version "27.4.2"
   resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-27.4.2.tgz#ed95b05b1adfd761e2cda47e0144c6a58e05a621"
   integrity sha512-YuxxpXU6nlMan9qyLuxHaMMOzXAl5aGZWCSzben5DhLHemYQxCc4YK+4L3ZrCutT8GPQ+ui9k5D8rUJoDioMnA==
@@ -13295,10 +13283,10 @@ ts-essentials@^2.0.3:
   resolved "https://registry.yarnpkg.com/ts-essentials/-/ts-essentials-2.0.12.tgz#c9303f3d74f75fa7528c3d49b80e089ab09d8745"
   integrity sha512-3IVX4nI6B5cc31/GFFE+i8ey/N2eA0CZDbo6n0yrz0zDX8ZJ8djmU1p+XRz7G3is0F3bB3pu2pAroFdAWQKU3w==
 
-ts-jest@^27.0.7:
-  version "27.0.7"
-  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-27.0.7.tgz#fb7c8c8cb5526ab371bc1b23d06e745652cca2d0"
-  integrity sha512-O41shibMqzdafpuP+CkrOL7ykbmLh+FqQrXEmV9CydQ5JBk0Sj0uAEF5TNNe94fZWKm3yYvWa/IbyV4Yg1zK2Q==
+ts-jest@^27.1.1:
+  version "27.1.1"
+  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-27.1.1.tgz#5a54aca96db1dac37c681f3029dd10f3a8c36192"
+  integrity sha512-Ds0VkB+cB+8g2JUmP/GKWndeZcCKrbe6jzolGrVWdqVUFByY/2KDHqxJ7yBSon7hDB1TA4PXxjfZ+JjzJisvgA==
   dependencies:
     bs-logger "0.x"
     fast-json-stable-stringify "2.x"
