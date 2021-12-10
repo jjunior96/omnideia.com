@@ -42,7 +42,7 @@
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-typescript": "^7.16.0",
-    "@next/plugin-storybook": "^12.0.4",
+    "@next/plugin-storybook": "^12.0.7",
     "@storybook/addon-essentials": "6.4.9",
     "@storybook/react": "6.4.9",
     "@swc/core": "^1.2.118",
