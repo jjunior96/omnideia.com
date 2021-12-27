@@ -45,7 +45,7 @@
     "@next/plugin-storybook": "^12.0.7",
     "@storybook/addon-essentials": "6.4.9",
     "@storybook/react": "6.4.9",
-    "@swc/core": "^1.2.122",
+    "@swc/core": "^1.2.123",
     "@swc/jest": "^0.2.15",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
