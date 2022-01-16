@@ -193,7 +193,7 @@ exports[`<Footer /> should render the heading 1`] = `
     class="c5"
   >
     Omnideia 
-    2021
+    2022
      © All rights reserved.
   </div>
 </footer>
