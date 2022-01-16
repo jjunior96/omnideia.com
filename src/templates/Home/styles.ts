@@ -5,7 +5,9 @@ import * as ButtonStyles from 'components/Button/styles';
 import * as CardInfoStyles from 'components/CardInfo/styles';
 import * as HeadingStyles from 'components/Heading/styles';
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  width: 100%;
+`;
 
 export const SectionContainer = styled.section`
   ${({ theme }) => css`
