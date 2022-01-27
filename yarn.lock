@@ -1686,10 +1686,10 @@
   resolved "https://registry.yarnpkg.com/@next/env/-/env-12.0.8.tgz#a32ca0a97d464307f2e6ff106ce09b19aac108cf"
   integrity sha512-Wa0gOeioB9PHap9wtZDZEhgOSE3/+qE/UALWjJHuNvH4J3oE+13EjVOiEsr1JcPCXUN8ESQE+phDKlo6qJ8P9g==
 
-"@next/plugin-storybook@^12.0.8":
-  version "12.0.8"
-  resolved "https://registry.yarnpkg.com/@next/plugin-storybook/-/plugin-storybook-12.0.8.tgz#91fe7736299bbd412884590d258346da0d408c45"
-  integrity sha512-580/EqNMX7bRZYqcQ6d4A3ueE/Qj3+XMBLpao8IqJH22DjvFVX39sVofAQpCG4YoU2fEuSQtRSIgrudNB4j8Kg==
+"@next/plugin-storybook@^12.0.9":
+  version "12.0.9"
+  resolved "https://registry.yarnpkg.com/@next/plugin-storybook/-/plugin-storybook-12.0.9.tgz#cf45add2404cdbc9a5c4e55a2dd9ec9ed26f0d05"
+  integrity sha512-BSdK7v8nDTGS1tk9qpjScNkGK/CAxMZqAP+V8UUFSJ19l77wYNQ9ye62gPqWv1NumIWNVA4bxF7sxrSnnHicWA==
 
 "@next/react-refresh-utils@12.0.8":
   version "12.0.8"
