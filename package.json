@@ -43,7 +43,7 @@
     "@babel/core": "^7.17.2",
     "@babel/preset-typescript": "^7.16.7",
     "@next/plugin-storybook": "^12.0.10",
-    "@storybook/addon-essentials": "6.3.12",
+    "@storybook/addon-essentials": "6.4.19",
     "@storybook/react": "6.4.18",
     "@swc/core": "^1.2.138",
     "@swc/jest": "^0.2.17",
