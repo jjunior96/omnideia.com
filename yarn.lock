@@ -1707,10 +1707,10 @@
   resolved "https://registry.yarnpkg.com/@next/env/-/env-12.0.10.tgz#561640fd62279218ccd2798ae907bae8d94a7730"
   integrity sha512-mQVj0K6wQ5WEk/sL9SZ+mJXJUaG7el8CpZ6io1uFe9GgNTSC7EgUyNGqM6IQovIFc5ukF4O/hqsdh3S/DCgT2g==
 
-"@next/plugin-storybook@^12.0.10":
-  version "12.0.10"
-  resolved "https://registry.yarnpkg.com/@next/plugin-storybook/-/plugin-storybook-12.0.10.tgz#a5f90f6a9ebad891009b86ff3b0c0e08ca818a1d"
-  integrity sha512-GLbbZG8J4qQ1UT/rTS8SDFkGYisAr4Kheq6aTmjltOhnPuh+q+ljCGYGUSK1dw+Q9eyJpd7LBZvrZMSdBYhZvA==
+"@next/plugin-storybook@^12.1.0":
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/@next/plugin-storybook/-/plugin-storybook-12.1.0.tgz#d6bf9ac097b606d0cc2e7c773867b00996a0c0d9"
+  integrity sha512-Rhd0kKnysQWNKqheHVjogl0C+naMIUeMxMdbV5lz2PsGWMR1DFRFeEt8G24SGQKsVjNpbcJ1GDsd5+cyPoK7wg==
 
 "@next/swc-android-arm64@12.0.10":
   version "12.0.10"
