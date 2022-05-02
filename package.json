@@ -40,7 +40,7 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.9",
+    "@babel/core": "^7.17.10",
     "@babel/preset-typescript": "^7.16.7",
     "@next/plugin-storybook": "^12.1.5",
     "@storybook/addon-essentials": "6.4.22",
